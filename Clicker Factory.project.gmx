@@ -5,13 +5,21 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\SPR_Quit</sprite>
+    <sprite>sprites\SPR_contine</sprite>
+    <sprite>sprites\SPR_new</sprite>
+    <sprite>sprites\SPR_factory</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objTest</object>
     <object>objects\ObJinit</object>
     <object>objects\OBJfactory</object>
+    <object>objects\OBJ_continue</object>
+    <object>objects\OBJ_new</object>
+    <object>objects\OJB_quit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
