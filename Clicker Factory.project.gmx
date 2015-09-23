@@ -8,10 +8,12 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scrSave.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\objTest</object>
-    <object>objects\ObJinit</object>
-    <object>objects\OBJfactory</object>
+    <object>objects\objInit</object>
+    <object>objects\objFactory</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
