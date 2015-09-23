@@ -5,22 +5,15 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites">
-    <sprite>sprites\SPR_Quit</sprite>
-    <sprite>sprites\SPR_contine</sprite>
-    <sprite>sprites\SPR_new</sprite>
-    <sprite>sprites\SPR_factory</sprite>
-  </sprites>
+  <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <script>scripts\scrSave.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\objTest</object>
-    <object>objects\ObJinit</object>
-    <object>objects\OBJfactory</object>
-    <object>objects\OBJ_continue</object>
-    <object>objects\OBJ_new</object>
-    <object>objects\OJB_quit</object>
+    <object>objects\objInit</object>
+    <object>objects\objFactory</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
